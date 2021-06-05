@@ -5,6 +5,9 @@ class Currency {
   ///The currency name in English
   final String name;
 
+  ///The locale code
+  final String locale;
+
   ///The currency symbol
   final String symbol;
 
@@ -37,6 +40,7 @@ class Currency {
   Currency({
     required this.code,
     required this.name,
+    required this.locale,
     required this.symbol,
     required this.flag,
     required this.number,
@@ -51,6 +55,7 @@ class Currency {
   Currency.from({required Map<String, dynamic> json})
       : code = json['code'],
         name = json['name'],
+        locale = json['locale'],
         symbol = json['symbol'],
         number = json['number'],
         flag = json['flag'],
@@ -64,6 +69,7 @@ class Currency {
   Map<String, dynamic> toJson() => {
         'code': code,
         'name': name,
+        'locale': locale,
         'symbol': symbol,
         'number': number,
         'flag': flag,

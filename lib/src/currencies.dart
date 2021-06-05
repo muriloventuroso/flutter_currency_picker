@@ -12,6 +12,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_US"
   },
   {
     "code": "EUR",
@@ -25,6 +26,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "fr"
   },
   {
     "code": "JPY",
@@ -38,6 +40,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "ja"
   },
   {
     "code": "GBP",
@@ -51,6 +54,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_GB"
   },
   {
     "code": "AUD",
@@ -64,6 +68,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_AU"
   },
   {
     "code": "CAD",
@@ -77,6 +82,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_CA"
   },
   {
     "code": "CHF",
@@ -90,6 +96,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "fr_CH"
   },
   {
     "code": "CNY",
@@ -103,6 +110,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "zh_CN"
   },
   {
     "code": "HKD",
@@ -116,6 +124,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "zh_HK"
   },
   {
     "code": "NZD",
@@ -129,6 +138,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_NZ"
   },
   {
     "code": "SEK",
@@ -142,6 +152,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "sv"
   },
   {
     "code": "KRW",
@@ -155,6 +166,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "ko"
   },
   {
     "code": "SGD",
@@ -168,6 +180,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_SG"
   },
   {
     "code": "NOK",
@@ -181,6 +194,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "nb"
   },
   {
     "code": "MXN",
@@ -194,6 +208,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "es_MX"
   },
   {
     "code": "INR",
@@ -207,6 +222,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_IN"
   },
   {
     "code": "RUB",
@@ -220,6 +236,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "ru"
   },
   {
     "code": "ZAR",
@@ -233,6 +250,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "zu"
   },
   {
     "code": "TRY",
@@ -246,6 +264,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "tr"
   },
   {
     "code": "BRL",
@@ -259,6 +278,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "pt_BR"
   },
   {
     "code": "TWD",
@@ -272,6 +292,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "zh_TW"
   },
   {
     "code": "DKK",
@@ -285,6 +306,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "da"
   },
   {
     "code": "PLN",
@@ -298,6 +320,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "pl"
   },
   {
     "code": "THB",
@@ -311,6 +334,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "th"
   },
   {
     "code": "IDR",
@@ -324,6 +348,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "id"
   },
   {
     "code": "HUF",
@@ -337,6 +362,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "hu"
   },
   {
     "code": "CZK",
@@ -350,6 +376,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "cs"
   },
   {
     "code": "ILS",
@@ -363,6 +390,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "he"
   },
   {
     "code": "CLP",
@@ -376,6 +404,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_CL"
   },
   {
     "code": "PHP",
@@ -389,6 +418,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "fil"
   },
   {
     "code": "AED",
@@ -402,6 +432,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_AE"
   },
   {
     "code": "COP",
@@ -415,6 +446,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_CO"
   },
   {
     "code": "SAR",
@@ -428,6 +460,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_SA"
   },
   {
     "code": "MYR",
@@ -441,6 +474,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "ms"
   },
   {
     "code": "RON",
@@ -454,6 +488,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "ro"
   },
   {
     "code": "AFN",
@@ -467,6 +502,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "ps"
   },
   {
     "code": "ARS",
@@ -480,6 +516,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_AR"
   },
   {
     "code": "BBD",
@@ -493,6 +530,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_BB"
   },
   {
     "code": "BDT",
@@ -506,6 +544,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "bn_BD"
   },
   {
     "code": "BGN",
@@ -519,6 +558,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "bg_BG"
   },
   {
     "code": "BHD",
@@ -532,6 +572,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_bh"
   },
   {
     "code": "BMD",
@@ -545,6 +586,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_BM"
   },
   {
     "code": "BND",
@@ -558,6 +600,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "ms_BN"
   },
   {
     "code": "BOB",
@@ -571,6 +614,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_BO"
   },
   {
     "code": "BTN",
@@ -584,6 +628,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "bt"
   },
   {
     "code": "BZD",
@@ -597,6 +642,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_BZ"
   },
   {
     "code": "CRC",
@@ -610,6 +656,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "es_CR"
   },
   {
     "code": "DOP",
@@ -623,6 +670,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "es_DO"
   },
   {
     "code": "EGP",
@@ -636,6 +684,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_EG"
   },
   {
     "code": "ETB",
@@ -649,6 +698,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "et"
   },
   {
     "code": "GEL",
@@ -662,6 +712,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "ka"
   },
   {
     "code": "GHS",
@@ -675,6 +726,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "ee_GH"
   },
   {
     "code": "GMD",
@@ -688,6 +740,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
+    "locale": "en_GM"
   },
   {
     "code": "GYD",
@@ -701,6 +754,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_GY"
   },
   {
     "code": "HRK",
@@ -714,6 +768,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "hr_HR"
   },
   {
     "code": "ISK",
@@ -727,6 +782,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "is_IS"
   },
   {
     "code": "JMD",
@@ -740,6 +796,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_JM"
   },
   {
     "code": "KES",
@@ -753,6 +810,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_KE"
   },
   {
     "code": "KWD",
@@ -766,6 +824,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_KW"
   },
   {
     "code": "KYD",
@@ -779,6 +838,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_KY"
   },
   {
     "code": "KZT",
@@ -792,6 +852,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": "-",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "kk-KZ"
   },
   {
     "code": "LAK",
@@ -805,6 +866,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
+    "locale": "lo_LA"
   },
   {
     "code": "LKR",
@@ -818,6 +880,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "si_LK"
   },
   {
     "code": "LRD",
@@ -831,6 +894,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_LR"
   },
   {
     "code": "MAD",
@@ -844,6 +908,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "fr_MA"
   },
   {
     "code": "MDL",
@@ -857,6 +922,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "ro_MD"
   },
   {
     "code": "MKD",
@@ -870,6 +936,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "mk_MK"
   },
   {
     "code": "MNT",
@@ -883,6 +950,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "mn_MN"
   },
   {
     "code": "MUR",
@@ -896,6 +964,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_MU"
   },
   {
     "code": "MWK",
@@ -909,6 +978,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_MW"
   },
   {
     "code": "MZN",
@@ -922,6 +992,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "pt_MZ"
   },
   {
     "code": "NAD",
@@ -935,6 +1006,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_NA"
   },
   {
     "code": "NGN",
@@ -948,6 +1020,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_NG"
   },
   {
     "code": "NIO",
@@ -961,6 +1034,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_NI"
   },
   {
     "code": "NPR",
@@ -974,6 +1048,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "ne_NP"
   },
   {
     "code": "OMR",
@@ -987,6 +1062,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_OM"
   },
   {
     "code": "PEN",
@@ -1000,6 +1076,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_PE"
   },
   {
     "code": "PGK",
@@ -1013,6 +1090,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_PG"
   },
   {
     "code": "PKR",
@@ -1026,6 +1104,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_PK"
   },
   {
     "code": "PYG",
@@ -1039,6 +1118,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_PY"
   },
   {
     "code": "QAR",
@@ -1052,6 +1132,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_qa"
   },
   {
     "code": "RSD",
@@ -1065,6 +1146,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "kk-KZ"
   },
   {
     "code": "SOS",
@@ -1078,6 +1160,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "sr_RS"
   },
   {
     "code": "SRD",
@@ -1091,6 +1174,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "sr"
   },
   {
     "code": "TTD",
@@ -1104,6 +1188,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_TT"
   },
   {
     "code": "TZS",
@@ -1117,6 +1202,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_TZ"
   },
   {
     "code": "UAH",
@@ -1130,6 +1216,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
+    "locale": "uk_UA"
   },
   {
     "code": "UGX",
@@ -1143,6 +1230,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_UG"
   },
   {
     "code": "UYU",
@@ -1156,6 +1244,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_UY"
   },
   {
     "code": "VEF",
@@ -1169,6 +1258,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "es_VE"
   },
   {
     "code": "VND",
@@ -1182,6 +1272,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "vi_VN"
   },
   {
     "code": "YER",
@@ -1195,6 +1286,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "ar_YE"
   },
   {
     "code": "ALL",
@@ -1208,6 +1300,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": false,
+    "locale": "sq_AL"
   },
   {
     "code": "AMD",
@@ -1221,6 +1314,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "hy_AM"
   },
   {
     "code": "AZN",
@@ -1234,6 +1328,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false,
+    "locale": "az_AZ"
   },
   {
     "code": "BI",
@@ -1247,6 +1342,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "fr_BI"
   },
   {
     "code": "BWP",
@@ -1260,6 +1356,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
+    "locale": "en_BW"
   },
   {
     "code": "BYN",
@@ -1273,5 +1370,6 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
+    "locale": "be_BY"
   },
 ];
