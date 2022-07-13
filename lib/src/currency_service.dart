@@ -1,14 +1,19 @@
 import 'package:collection/collection.dart' show IterableExtension;
+import 'package:currency_picker/src/countries.dart';
+import 'package:currency_picker/src/country.dart';
 import 'package:currency_picker/src/currencies.dart';
 import 'package:currency_picker/src/currency.dart';
 
 class CurrencyService {
   final List<Currency> _currencies;
+  final List<Country> _countries;
 
   CurrencyService()
       : _currencies = currencies
             .map((currency) => Currency.from(json: currency))
-            .toList();
+            .toList(),
+        _countries =
+            countries.map((country) => Country.from(json: country)).toList();
 
   ///Return list with all currencies
   List<Currency> getAll() {
@@ -31,6 +36,17 @@ class CurrencyService {
   Currency? findByNumber(int? number) {
     return _currencies
         .firstWhereOrNull((currency) => currency.number == number);
+  }
+
+  ///Returns the first currency that mach the given number.
+  Currency? findByCountry(String countryCode) {
+    final country =
+        _countries.firstWhereOrNull((country) => country.code == countryCode);
+    if (country == null) {
+      return null;
+    }
+    return _currencies
+        .firstWhereOrNull((currency) => currency.code == country.currencyCode);
   }
 
   ///Returns a list with all the currencies that mach the given codes list.
