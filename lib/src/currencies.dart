@@ -1375,7 +1375,7 @@ List<Map<String, dynamic>> currencies = [
   {
     "code": "SDG",
     "name": "Sudanese Pound",
-    "symbol": "LS",
+    "symbol": "£",
     "flag": "SD",
     "decimal_digits": 2,
     "number": 760,
