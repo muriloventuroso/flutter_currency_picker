@@ -1,10 +1,9 @@
+import 'package:currency_picker/src/currency.dart';
+import 'package:currency_picker/src/currency_picker_theme_data.dart';
+import 'package:currency_picker/src/currency_service.dart';
+import 'package:currency_picker/src/currency_utils.dart';
 import 'package:currency_picker/src/extensions.dart';
 import 'package:flutter/material.dart';
-
-import 'currency.dart';
-import 'currency_picker_theme_data.dart';
-import 'currency_service.dart';
-import 'currency_utils.dart';
 
 class CurrencyListView extends StatefulWidget {
   /// Called when a currency is select.
@@ -146,7 +145,7 @@ class _CurrencyListViewState extends State<CurrencyListView> {
               ],
               ..._filteredList
                   .map<Widget>((currency) => _listRow(currency))
-                  .toList()
+                  .toList(),
             ],
           ),
         ),
@@ -155,9 +154,9 @@ class _CurrencyListViewState extends State<CurrencyListView> {
   }
 
   Widget _listRow(Currency currency) {
-    final TextStyle _titleTextStyle =
+    final TextStyle titleTextStyle =
         widget.theme?.titleTextStyle ?? _defaultTitleTextStyle;
-    final TextStyle _subtitleTextStyle =
+    final TextStyle subtitleTextStyle =
         widget.theme?.subtitleTextStyle ?? _defaultSubtitleTextStyle;
 
     return Material(
@@ -189,17 +188,17 @@ class _CurrencyListViewState extends State<CurrencyListView> {
                           if (widget.showCurrencyCode) ...[
                             Text(
                               currency.code,
-                              style: _titleTextStyle,
+                              style: titleTextStyle,
                             ),
                           ],
                           if (widget.showCurrencyName) ...[
                             Text(
                               currency.name,
                               style: widget.showCurrencyCode
-                                  ? _subtitleTextStyle
-                                  : _titleTextStyle,
+                                  ? subtitleTextStyle
+                                  : titleTextStyle,
                             ),
-                          ]
+                          ],
                         ],
                       ),
                     ),
@@ -238,19 +237,21 @@ class _CurrencyListViewState extends State<CurrencyListView> {
   }
 
   void _filterSearchResults(String query) {
-    List<Currency> _searchResult = <Currency>[];
+    List<Currency> searchResult = <Currency>[];
 
     if (query.isEmpty) {
-      _searchResult.addAll(_currencyList);
+      searchResult.addAll(_currencyList);
     } else {
-      _searchResult = _currencyList
-          .where((c) =>
-              c.name.toLowerCase().contains(query.toLowerCase()) ||
-              c.code.toLowerCase().contains(query.toLowerCase()))
+      searchResult = _currencyList
+          .where(
+            (c) =>
+                c.name.toLowerCase().contains(query.toLowerCase()) ||
+                c.code.toLowerCase().contains(query.toLowerCase()),
+          )
           .toList();
     }
 
-    setState(() => _filteredList = _searchResult);
+    setState(() => _filteredList = searchResult);
   }
 
   TextStyle get _defaultTitleTextStyle => const TextStyle(fontSize: 17);

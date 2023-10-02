@@ -1,10 +1,10 @@
 library currency_picker;
 
+import 'package:currency_picker/src/currency.dart';
+import 'package:currency_picker/src/currency_list_bottom_sheet.dart'
+    as currency_list;
+import 'package:currency_picker/src/currency_picker_theme_data.dart';
 import 'package:flutter/material.dart';
-
-import 'src/currency.dart';
-import 'src/currency_list_bottom_sheet.dart' as currency_list;
-import 'src/currency_picker_theme_data.dart';
 
 export 'package:currency_picker/src/currency.dart';
 export 'package:currency_picker/src/currency_picker_theme_data.dart';
@@ -47,8 +47,10 @@ void showCurrencyPicker({
   ScrollPhysics? physics,
   CurrencyPickerThemeData? theme,
 }) {
-  assert(showCurrencyName || showCurrencyCode,
-      'showCurrencyName and showCurrencyCode cannot be both false');
+  assert(
+    showCurrencyName || showCurrencyCode,
+    'showCurrencyName and showCurrencyCode cannot be both false',
+  );
   currency_list.showCurrencyListBottomSheet(
     context: context,
     onSelect: onSelect,
