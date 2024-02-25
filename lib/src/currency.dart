@@ -80,4 +80,6 @@ class Currency {
         'thousands_separator': thousandsSeparator,
         'space_between_amount_and_symbol': spaceBetweenAmountAndSymbol,
       };
+
+  String get search => '$code $name $namePlural'.toLowerCase();
 }

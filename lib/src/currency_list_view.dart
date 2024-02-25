@@ -149,6 +149,9 @@ class _CurrencyListViewState extends State<CurrencyListView> {
             ],
           ),
         ),
+        SizedBox(
+          height: MediaQuery.of(context).viewInsets.bottom,
+        ),
       ],
     );
   }
@@ -244,9 +247,7 @@ class _CurrencyListViewState extends State<CurrencyListView> {
     } else {
       searchResult = _currencyList
           .where(
-            (c) =>
-                c.name.toLowerCase().contains(query.toLowerCase()) ||
-                c.code.toLowerCase().contains(query.toLowerCase()),
+            (c) => c.search.contains(query.toLowerCase()),
           )
           .toList();
     }

@@ -852,7 +852,7 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
     "symbol_on_left": true,
-    "locale": "ee_GH",
+    "locale": "en_GH",
   },
   {
     "code": "GMD",
